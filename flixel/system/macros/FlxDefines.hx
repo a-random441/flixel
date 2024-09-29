@@ -112,9 +112,9 @@ class FlxDefines
 
 	static function checkCompatibility()
 	{
-		#if (haxe < version("4.2.5"))
-		abortVersion("Haxe", "4.2.5 or newer", "haxe_ver", (macro null).pos);
-		#end
+		//#if (haxe < version("4.2.5"))
+		//abortVersion("Haxe", "4.2.5 or newer", "haxe_ver", (macro null).pos);
+		//#end
 
 		#if !nme
 		checkOpenFLVersions();
