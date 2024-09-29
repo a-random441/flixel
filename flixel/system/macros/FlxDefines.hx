@@ -130,9 +130,9 @@ class FlxDefines
 
 	static function checkOpenFLVersions()
 	{
-		#if (lime < version("8.0.2"))
-		abortVersion("Lime", "8.0.2 or newer", "lime", (macro null).pos);
-		#end
+		//#if (lime < version("8.0.2"))
+        //abortVersion("Lime", "8.0.2 or newer", "lime", (macro null).pos);
+		//#end
 
 		#if (openfl < version("9.2.2"))
 		abortVersion("OpenFL", "9.2.2 or newer", "openfl", (macro null).pos);
